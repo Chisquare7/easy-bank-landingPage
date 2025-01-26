@@ -1,0 +1,33 @@
+/* Global styling */
+
+:root {
+  font-size: 1rem;
+  --heading-text-color: #1c2022;
+  --main-text-color: #e7ebf9;
+  --main-test-color: #000000; /* opacity 0% */
+  --primary-background-color: #fafafa;
+  --secondary-background-color: #f0f4f4;
+  --main-button-color: #00db9a;
+  --main-bg-footer-color: #3e54a3;
+  --neutral-white-color: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1150px;
+}
