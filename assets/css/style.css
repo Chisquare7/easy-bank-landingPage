@@ -375,6 +375,34 @@ footer {
   .list__text {
     font-size: 1.5rem;
   }
+
+  /* Styling of the bottom layout of the landing page */
+
+  .bottom__main {
+    padding: 8em 0 4em;
+  }
+
+  .article__head {
+    text-align: left;
+  }
+
+  .article__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+
+  .article__img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+
+  .article__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /* @media (min-width: 600px) {
