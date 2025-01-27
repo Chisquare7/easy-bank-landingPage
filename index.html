@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <div class="page__overlay"></div>
     <header>
       <div class="container">
         <section class="nav__container">
@@ -25,7 +26,29 @@
               />
             </a>
           </div>
-          <ul class="middle__nav">
+          <div id="hamburger__icon" onclick="toggleMobileNav(this)">
+            <div class="bar__one"></div>
+            <div class="bar__two"></div>
+            <div class="bar__three"></div>
+            <!-- <ul class="mobile__menu">
+              <li class="middle__navLink">
+                <a href="/" class="each__middleNav">Home</a>
+              </li>
+              <li class="middle__navLink">
+                <a href="/" class="each__middleNav">About</a>
+              </li>
+              <li class="middle__navLink">
+                <a href="/" class="each__middleNav">Contact</a>
+              </li>
+              <li class="middle__navLink">
+                <a href="/" class="each__middleNav">Blog</a>
+              </li>
+              <li class="middle__navLink">
+                <a href="/" class="each__middleNav">Careers</a>
+              </li>
+            </ul> -->
+          </div>
+          <ul class="middle__nav mobile__menu">
             <li class="middle__navLink">
               <a href="/" class="each__middleNav">Home</a>
             </li>
@@ -334,5 +357,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>
