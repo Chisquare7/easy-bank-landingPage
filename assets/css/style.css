@@ -23,6 +23,9 @@
 }
 
 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   max-width: 100%;
 }
 
@@ -33,6 +36,18 @@ img {
 }
 
 /* Styling of the header section */
+
+.overall__Nav {
+  padding: 2em 0;
+  z-index: 1001;
+  position: relative;
+  background-color: var(--neutral-white-color);
+}
+
+.navLogo__container {
+  padding-top: 1em;
+  width: 10rem;
+}
 
 .nav__container {
   position: relative;
@@ -96,7 +111,7 @@ img {
 
 .mobile__menu {
   position: fixed;
-  top: 50px;
+  top: 9em;
   left: 90%;
   height: 40vh;
   width: 80%;
@@ -109,7 +124,7 @@ img {
   justify-content: center;
   padding: 2em;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  z-index: 2000;
+  z-index: 1005;
   transition: transform 0.4s ease;
   transform: translate(-100%);
 }
@@ -120,8 +135,8 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 253, 253, 0.5);
-  z-index: 500;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 888;
   display: none;
 }
 
@@ -138,6 +153,63 @@ img {
   height: 30vh;
 }
 
+/* Styling of the Hero section */
+
+.desktop__heroImg {
+  display: none;
+}
+
+.topHero__flex {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hero__images {
+  position: relative;
+}
+
+.hero__mockUp {
+  position: absolute;
+  top: -9.5em;
+  z-index: 999;
+}
+
+.heroContext__Info {
+  text-align: center;
+}
+
+.hero__heading {
+  color: var(--heading-text-color);
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+
+.hero__subInfo {
+  color: #808080;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+.allButton {
+  padding: 1.5rem 2.5rem;
+  color: var(--neutral-white-color);
+  background: linear-gradient(to right, #00db9a 60%, #66ccff 80%, #00aaff);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 0.75rem;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 6.25rem;
+}
+
+.hero__text,
+.hero__Btn {
+  margin-top: 2.5em;
+}
 @media (min-width: 600px) {
   #hamburger__icon {
     display: none;
