@@ -272,6 +272,57 @@ img {
   line-height: 2rem;
 }
 
+/* Styling of the footer of the landing page */
+
+footer {
+  background-color: #2d314e;
+  padding: 3em 0;
+}
+
+.footer__flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.footer__socials {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.8em;
+  margin: 3em 0;
+}
+
+.socials {
+  width: 2rem;
+}
+
+.footer__logo {
+  text-align: center;
+  width: 15rem;
+}
+
+.footer__items {
+  text-align: center;
+}
+
+.foot__List {
+  color: var(--neutral-white-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.page__copyright {
+  font-size: 1.5rem;
+}
+
+.footer__btn {
+  margin: 3em 0;
+  text-align: center;
+}
+
 @media (min-width: 600px) {
   #hamburger__icon {
     display: none;
