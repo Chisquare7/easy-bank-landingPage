@@ -334,8 +334,51 @@ footer {
   text-align: center;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
+  /* .container {
+    width: 100%;
+    margin: 0 auto;
+  } */
+
+  /* Styling of the why section */
+
+  .why__Section {
+    padding: 10em 0;
+    text-align: left;
+  }
+
+  .why__context {
+    width: 70%;
+    margin-top: 2em;
+  }
+
+  .list__img {
+    width: 35%;
+    margin: unset;
+  }
+
+  .bankList__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5em;
+    margin-top: 3em;
+  }
+
+  .page__subHead {
+    font-size: 3rem;
+  }
+
+  .list__heading {
+    font-size: 2rem;
+  }
+
+  .list__text {
+    font-size: 1.5rem;
+  }
+}
+
+/* @media (min-width: 600px) {
   #hamburger__icon {
     display: none;
   }
-}
+} */
