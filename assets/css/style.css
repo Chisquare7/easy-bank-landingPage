@@ -61,10 +61,27 @@ img {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.3rem;
+  position: relative;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 1em;
 }
 
 .middle__navLink + .middle__navLink {
   margin-top: 3em;
+}
+
+/* Styling of active states */
+
+.each__middleNav:hover,
+.each__middleNav:focus {
+  color: var(--main-test-color);
+  border-bottom: 3px solid #00db9a;
+  outline: none;
+}
+
+.each__middleNav.active {
+  color: var(--main-button-color);
+  font-weight: 600;
 }
 
 /* 1. Styling for navigation desktop view */
@@ -281,6 +298,11 @@ img {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 2rem;
+  transition: color 0.3s ease;
+}
+
+.blog__heading:hover {
+  color: var(--main-button-color);
 }
 
 /* Styling of the footer of the landing page */
@@ -295,7 +317,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* text-align: center; */
 }
 
 .footer__socials {
@@ -323,6 +344,11 @@ footer {
   font-size: 1.5rem;
   font-weight: 500;
   margin-bottom: 1em;
+  transition: color 0.3s ease;
+}
+
+.foot__List:hover {
+  color: var(--main-button-color);
 }
 
 .page__copyright {
@@ -353,27 +379,6 @@ footer {
   .end__nav {
     display: block;
   }
-
-  /* .middle__nav {
-    display: flex; 
-    flex-grow: 1; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 2rem;
-    padding: 0; 
-    margin: 0; 
-    position: relative;
-    top: 0;
-    background-color: inherit;
-    height: auto; 
-    width: auto; 
-    max-width: 100%; 
-    flex-direction: row; 
-    border-radius: 0; 
-    transition: none;
-    border: none;
-    box-shadow: none;
-  } */
 
   .middle__nav {
     display: none;
@@ -562,9 +567,3 @@ footer {
     margin-bottom: 2em;
   }
 }
-
-/* @media (min-width: 600px) {
-  #hamburger__icon {
-    display: none;
-  }
-} */
