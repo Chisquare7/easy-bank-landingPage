@@ -56,6 +56,17 @@ img {
   align-items: center;
 }
 
+.each__middleNav {
+  color: var(--heading-text-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+}
+
+.middle__navLink + .middle__navLink {
+  margin-top: 3em;
+}
+
 /* 1. Styling for navigation desktop view */
 
 .middle__nav,
