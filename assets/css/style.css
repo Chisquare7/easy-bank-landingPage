@@ -46,7 +46,7 @@ img {
 
 .navLogo__container {
   padding-top: 1em;
-  width: 10rem;
+  width: 15rem;
 }
 
 .nav__container {
@@ -69,8 +69,8 @@ img {
 
 /* 1. Styling for navigation desktop view */
 
-.middle__nav,
-.end__nav {
+.end__nav,
+.desktop__nav {
   display: none;
 }
 
@@ -335,6 +335,65 @@ footer {
 }
 
 @media (min-width: 768px) {
+  /* Styling of the desktop navigation */
+
+  .page__overlay {
+    display: none;
+  }
+
+  .navLogo__container {
+    padding: 0;
+    width: auto;
+  }
+
+  #hamburger__icon {
+    display: none;
+  }
+
+  .end__nav {
+    display: block;
+  }
+
+  /* .middle__nav {
+    display: flex; 
+    flex-grow: 1; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem;
+    padding: 0; 
+    margin: 0; 
+    position: relative;
+    top: 0;
+    background-color: inherit;
+    height: auto; 
+    width: auto; 
+    max-width: 100%; 
+    flex-direction: row; 
+    border-radius: 0; 
+    transition: none;
+    border: none;
+    box-shadow: none;
+  } */
+
+  .middle__nav {
+    display: none;
+  }
+
+  .desktop__nav {
+    display: flex;
+    gap: 1.5em;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .middle__navLink {
+    margin: 0;
+  }
+
+  .middle__navLink + .middle__navLink {
+    margin-top: 0em;
+  }
+
   /* Styling of the why section */
 
   .why__Section {
