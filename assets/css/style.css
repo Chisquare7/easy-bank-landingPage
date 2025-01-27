@@ -163,6 +163,7 @@ img {
   display: flex;
   flex-direction: column-reverse;
   background-color: rgba(255, 255, 255, 0.3);
+  padding-bottom: 7em;
 }
 
 .hero__images {
@@ -179,14 +180,14 @@ img {
   text-align: center;
 }
 
-.hero__heading {
+.page__heading {
   color: var(--heading-text-color);
   font-size: 3rem;
   font-weight: 600;
   line-height: 4rem;
 }
 
-.hero__subInfo {
+.page__text {
   color: #808080;
   font-size: 1.25rem;
   font-weight: 500;
@@ -210,6 +211,37 @@ img {
 .hero__Btn {
   margin-top: 2.5em;
 }
+
+/* Styling of the Why__section layout */
+
+.why__Section {
+  background-color: #f0f0f0;
+  padding: 6em 0;
+  text-align: center;
+}
+
+.page__subHead {
+  font-size: 2.5rem;
+}
+
+.list__img {
+  width: 25%;
+  margin: 0 auto;
+}
+
+.list__heading {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.bank__listing {
+  margin-top: 2em;
+}
+
+.listing {
+  margin-top: 1em;
+}
+
 @media (min-width: 600px) {
   #hamburger__icon {
     display: none;
