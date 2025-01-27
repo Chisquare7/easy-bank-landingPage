@@ -335,11 +335,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-  /* .container {
-    width: 100%;
-    margin: 0 auto;
-  } */
-
   /* Styling of the why section */
 
   .why__Section {
@@ -402,6 +397,66 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  /* Styling of the footer of the landing page */
+
+  .footer__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap: 2em;
+  }
+
+  .footer__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    flex: 2;
+  }
+
+  .grid__row {
+    margin-bottom: 2em;
+  }
+
+  .middleGrid__row {
+    margin: 0 auto;
+  }
+
+  .footer__socials {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.2em;
+    margin-top: 5em;
+  }
+
+  .footer__logo {
+    text-align: start;
+  }
+
+  .footer__items {
+    text-align: start;
+  }
+
+  .footer__end {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer__endRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.5em;
+  }
+
+  .footer__btn {
+    margin: 0;
+    text-align: end;
+    margin-bottom: 2em;
   }
 }
 
