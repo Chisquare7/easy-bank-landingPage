@@ -221,7 +221,7 @@ img {
 }
 
 .page__subHead {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 
 .list__img {
@@ -230,7 +230,7 @@ img {
 }
 
 .list__heading {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
@@ -240,6 +240,36 @@ img {
 
 .listing {
   margin-top: 1em;
+}
+
+/* Styling of the bottom layout of the landing page */
+
+.bottom__main {
+  padding: 8em 0 4em;
+}
+
+.article__head {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.eachArt__grid {
+  margin-bottom: 4em;
+}
+
+.article__context {
+  width: 80%;
+  margin: 2em auto 0em;
+}
+
+.blog__head {
+  margin: 1em 0;
+}
+
+.blog__heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2rem;
 }
 
 @media (min-width: 600px) {
