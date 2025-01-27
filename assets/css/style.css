@@ -394,11 +394,55 @@ footer {
     margin-top: 0em;
   }
 
+  /* Styling of the Hero section */
+
+  .desktop__heroImg {
+    display: block;
+  }
+
+  .topHero__flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .hero__images {
+    position: relative;
+    top: -15%;
+    right: -10%;
+    z-index: 2;
+    width: 100%;
+  }
+
+  .hero__mockUp {
+    position: absolute;
+    z-index: 2;
+  }
+
+  .mobile__heroImg {
+    display: none;
+  }
+
+  .heroContext__Info {
+    text-align: left;
+    padding: 4rem;
+    max-width: 50%;
+  }
+
+  .hero__subInfo {
+    font-size: 1.8rem;
+  }
+
   /* Styling of the why section */
 
   .why__Section {
+    position: relative;
     padding: 10em 0;
     text-align: left;
+    z-index: 1;
+    margin-top: -10rem;
   }
 
   .why__context {
